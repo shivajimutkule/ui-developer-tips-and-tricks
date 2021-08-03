@@ -1,6 +1,6 @@
 # Proven Tips and Tricks for UI Developer
 
-Collection of tips and tricks that should be considered during UI development along with the sample code. This file contains overview and a link to in-depth explaination and sample code.  
+Collection of tips and tricks for UI developer along with the sample code. This file contains overview and a link to in-depth explaination and sample code.  
  
 > My goal is to elaborate each point with sample code  
 > I will be periodically updating sample code for each point - one point in 2 weeks 
