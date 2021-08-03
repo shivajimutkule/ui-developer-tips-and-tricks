@@ -1,20 +1,23 @@
 # Proven Tips and Tricks for UI Developer
 
-Collection of tips and tricks that should be considered during UI development along with the sample code. This file will be having overview of each tip and a link to detailed page and sample code.  
+Collection of tips and tricks that should be considered during UI development along with the sample code. This file contains overview and a link to in-depth explaination and sample code.  
+ 
+> My goal is to elaborate each point with sample code  
+> I will be periodically updating sample code for each point - one point in 2 weeks 
 
   <p>I have extensively worked on the latest JavaScript frameworks & libraries like React with redux, Angular 1 & 2+, Ember with Ember data, node with express.js, Jquery, D3.js, RxJS, Ionic etc throughout the last 8 years. After getting expertise on UI technologies I wanted to share my knowledge about “How UI applications should be?”. Interestingly I kept it so generic that it will be applicable to every UI application regardless of domain, framework, technology etc.</p>
   <p>These can be considered as checkpoints or guidelines in UI application development. The priority of guidelines will be changed depending on the project and business need. One Application may not focus on browser compatibility and responsiveness but others may insist on it. It will always be the business decisions. Nowadays few of the guidelines are taken care of by JavaScript frameworks or plugins we use.</p>
 
 I have divided tips and tricks into multiple sections for better understanding. Let's walk through it without further delay.
 
-## 1. Platform:
+## 1. Platform
 It mostly considers the physical aspects on which the application will run
 1. [**Browser Compatibility**](browser-compatibility/README.md)
     - Application should work properly on any browser.
     - Decide & test on targeted browsers like chrome, firefox, safari, IE etc
     - Also need to consider the minimum supported version for each browser
-    - www.caniuse.com can be used to check supported browser versions.
-    - e.g. Check which browser supports “localStorage” [here](https://caniuse.com/?search=localStorage)
+    - `www.caniuse.com` can be used to check supported browser versions.
+    - e.g. Check which browser supports “localStorage” [Click Here](https://caniuse.com/?search=localStorage)
 
 2. **Different Resolutions / Responsive design**
     - Application should work properly on different screen sizes. 
@@ -33,7 +36,7 @@ It mostly considers the physical aspects on which the application will run
 5. **Polyfills whenever required**
    - Supporting older browser versions
 
-## 2. UI Aesthetics:
+## 2. UI Aesthetics
 It will focus on look and feel of application
 1. **Consistency**
     - Use consistent width, height, color, font, padding, theme etc.
@@ -176,7 +179,7 @@ It is a key metric to any web application. People will not use an application if
 3. Use **Web Workers**
     - Allows to put long running and computationally intensive tasks on the background without blocking UI
     - If we do not use workers then the UI will be unresponsive and will not render anything during the computation task as the main thread will be blocked by that task.
-    - Sorting example with and without web workers: http://afshinm.github.io/50k/
+    - Sorting example with and without web workers [Click Here](http://afshinm.github.io/50k/)
 
 4. Use **Lazy Loading** whenever possible
     - Delaying the load or initialization of the resources until they are actually needed
