@@ -1,6 +1,6 @@
 # Proven Tips and Tricks for UI Developer
 
-Collection of tips and tricks that should be considered during UI development along with the sample code.
+Collection of tips and tricks that should be considered during UI development along with the sample code. This file will be like a index file having overview of each tip and a link to detailed page and sample code.  
 
   <p>I have extensively worked on the latest JavaScript frameworks & libraries like React with redux, Angular 1 & 2+, Ember with Ember data, node with express.js, Jquery, D3.js, RxJS, Ionic etc throughout the last 8 years. After getting expertise on UI technologies I wanted to share my knowledge about “How UI applications should be?”. Interestingly I kept it so generic that it will be applicable to every UI application regardless of domain, framework, technology etc.</p>
   <p>These can be considered as checkpoints or guidelines in UI application development. The priority of guidelines will be changed depending on the project and business need. One Application may not focus on browser compatibility and responsiveness but others may insist on it. It will always be the business decisions. Nowadays few of the guidelines are taken care of by JavaScript frameworks or plugins we use.</p>
