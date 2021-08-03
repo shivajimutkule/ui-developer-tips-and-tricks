@@ -1,15 +1,15 @@
 # Proven Tips and Tricks for UI Developer
 
-Collection of tips abd tricks that should be considered during UI development along with the sample code.
+Collection of tips and tricks that should be considered during UI development along with the sample code.
 
   <p>I have extensively worked on the latest JavaScript frameworks & libraries like React with redux, Angular 1 & 2+, Ember with Ember data, node with express.js, Jquery, D3.js, RxJS, Ionic etc throughout the last 8 years. After getting expertise on UI technologies I wanted to share my knowledge about “How UI applications should be?”. Interestingly I kept it so generic that it will be applicable to every UI application regardless of domain, framework, technology etc.</p>
   <p>These can be considered as checkpoints or guidelines in UI application development. The priority of guidelines will be changed depending on the project and business need. One Application may not focus on browser compatibility and responsiveness but others may insist on it. It will always be the business decisions. Nowadays few of the guidelines are taken care of by JavaScript frameworks or plugins we use.</p>
 
-I have divided tips abd tricks into multiple sections for better understanding. Let's walk through it without further delay.
+I have divided tips and tricks into multiple sections for better understanding. Let's walk through it without further delay.
 
 ## 1. Platform:
 It mostly considers the physical aspects on which the application will run
-1. **Browser Compatibility**
+1. [**Browser Compatibility**](browser-compatibility/README.md)
     - Application should work properly on any browser.
     - Decide & test on targeted browsers like chrome, firefox, safari, IE etc
     - Also need to consider the minimum supported version for each browser
