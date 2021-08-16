@@ -35,6 +35,7 @@ It mostly considers the physical aspects on which the application will run
 
 5. **Polyfills whenever required**
    - Supporting older browser versions
+   - List of pollyfills which are equivalent to JavaScript feature [Click Here](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
 
 ## 2. UI Aesthetics
 It will focus on look and feel of application
