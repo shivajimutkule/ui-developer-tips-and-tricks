@@ -190,6 +190,10 @@ It is a key metric to any web application. People will not use an application if
     - There may be few requests whose response doesn't change frequently can be cached in browser
     - e.g. ionic-cache for Ionic
 
+6. **Request timeout** to all APIs
+   - All HTTP requests should have default timeout (e.g. 10 seconds)
+   - It will make UI aaplication more robust and user will not have to keep waiting if server didn't response.
+
 ## 7. Automation Testing and Profiling
 Test coverage can be considered as the health of your application.
 1. **Unit Testing**
