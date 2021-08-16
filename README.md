@@ -80,8 +80,13 @@ It is very basic and equally important while developing any application.
 3. Use **Proper Variable and Method names**
     - Proper naming conventions will help you (if you are visiting code after a long time) and others to maintain code.
 
-4. Use **W3C Validation Markup Service**
-    - It checks the Markup validity of web documents like HTML, XHTML etc. [Click Here](https://validator.w3.org/)
+4. Use **Code Validators**
+   - W3C Validation Markup Service
+      - It checks the Markup validity of web documents like HTML, XHTML etc. [Click Here](https://validator.w3.org/)
+   - CSS Lint
+      - It is used for linting CSS code. [Click Here](http://csslint.net/)
+   - JS Lint
+      - It is used for linting JS code. [Click Here](https://www.jslint.com/)     
 
 5. **Never Duplicate Code**
     - Move duplicated code to parameterized method or new method in shared class
