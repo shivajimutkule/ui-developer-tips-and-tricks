@@ -80,26 +80,29 @@ It is very basic and equally important while developing any application.
 3. Use **Proper Variable and Method names**
     - Proper naming conventions will help you (if you are visiting code after a long time) and others to maintain code.
 
-4. **Never Duplicate Code**
+4. Use **W3C Validation Markup Service**
+    - It checks the Markup validity of web documents like HTML, XHTML etc [Click Here](https://validator.w3.org/)
+
+5. **Never Duplicate Code**
     - Move duplicated code to parameterized method or new method in shared class
     - Duplicate code makes the application fragile and non-maintainable
 
-5. **Input Validations** 
+6. **Input Validations** 
     - Setting min - max limits
     - Update the default values as per need
     - Check the behavior for boundary conditions.
     - Check for all valid, invalid, symbols, numbers
     - Better to use RegEx for validation
 
-6. trim() and **Sanitise each input field** before API call
+7. trim() and **Sanitise each input field** before API call
     - Clean the input values before sending to server to save
     - Attacker may add 
 
-7. **Global Error / Exception Handling**
+8. **Global Error / Exception Handling**
     - It avoids sudden termination of application
     - Catch the exception in promises as well
 
-8. **Console and Network tab**
+9. **Console and Network tab**
     - Always check for exceptions, errors in console and fix them
     - Check for the deprecated features and remove it’s use
     - e.g 404 errors for missing images
